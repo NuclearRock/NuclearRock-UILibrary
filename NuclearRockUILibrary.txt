@@ -105,6 +105,14 @@ function lib:Window(text, preset, closebind)
     Main.Size = UDim2.new(0, 0, 0, 0)
     Main.ClipsDescendants = true
     Main.Visible = true
+    
+    local uiCorner = Instance.new("UICorner")
+    uiCorner.Name = "MCorner"
+    uiCorner.CornerRadius = UDim.new(0, 5)
+
+    local guiObject = -- Main
+
+    uiCorner.Parent = guiObject
 
     TabHold.Name = "TabHold"
     TabHold.Parent = Main
