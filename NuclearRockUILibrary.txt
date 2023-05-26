@@ -110,7 +110,7 @@ function lib:Window(text, preset, closebind)
     uiCorner.Name = "MCorner"
     uiCorner.CornerRadius = UDim.new(0, 5)
 
-    local guiObject = -- Main
+    local guiObject = Main
 
     uiCorner.Parent = guiObject
 
